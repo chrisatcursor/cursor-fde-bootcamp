@@ -104,16 +104,12 @@ apps/auth
 i18n.cache
 packages/**/.yarn/ci-cache/
 
-# AI - session/user specific files (keep CLAUDE.md and .cursor/skills tracked)
-.claude/plans/
-.claude/settings.local.json
-
-# Spec drafts (rough work, not ready for review)
-specs/**/_drafts/
+# AI - session/user-specific files (cohort will create their own .cursor/ during workshops)
+.cursor/agents/sessions/
+.cursor/plans/local/
 
 # trigger.dev
 .trigger
-agents/devin-knowledge.json
 
 # pagefind
 _pagefind/

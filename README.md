@@ -15,7 +15,15 @@ This repo is a fork of [Cal.diy](https://github.com/calcom/cal.diy) by [Cal.com]
 
 # Cal.diy — Upstream README
 
-_Everything below this line is the original cal.diy README, preserved verbatim from the upstream commit at fork time._
+> [!IMPORTANT]
+> Everything below this line is the original cal.diy README, preserved **verbatim** from the upstream commit at fork time. It's kept as reference — it documents the codebase, contribution norms, deployment options, integrations, and conventions that the cal.diy maintainers established.
+>
+> **Bootcamp participants:** read this for context, but ignore the parts that point you at the upstream project:
+> - **Don't clone `calcom/cal.diy`.** This repo (`chrisatcursor/cursor-fde-bootcamp`) is the bootcamp working tree — you've already cloned the right one.
+> - **Don't file issues, PRs, or discussions on `calcom/cal.diy`.** Bootcamp questions go to your training coordinators.
+> - **Don't run `git pull` from upstream.** This repo has no upstream remote on purpose; the codebase is a frozen snapshot for the bootcamp.
+>
+> Setup commands (`yarn install`, `yarn dev`, `yarn dx`, etc.) and the explanations of cal.diy itself **are still accurate** for this repo.
 
 > [!WARNING]  
 > Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production use. Please review all installation and configuration steps carefully. Self-hosting requires advanced knowledge of server administration, database management, and securing sensitive data. Proceed only if you are comfortable with these responsibilities.

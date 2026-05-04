@@ -132,7 +132,7 @@ ls .env
 ```
 
 - ✓ if `.env` exists at repo root
-- ⚠ if not → Suggest: `cp .env.example .env`, then edit secrets per the README's "Setting up your first user" section. Don't auto-copy — the participant should make this decision themselves.
+- ⚠ if not → Suggest: `cp .env.example .env`. Two secrets must be generated and pasted in: `NEXTAUTH_SECRET` (via `openssl rand -base64 32`) and `CALENDSO_ENCRYPTION_KEY` (via `openssl rand -base64 24`). See the README's "Required Secret Keys" section for context. Don't auto-copy — the participant should make this decision themselves.
 
 ### 9. Free disk space ≥ 5 GB
 
@@ -155,7 +155,7 @@ Print these for situational awareness; do not gate.
 uname -s
 ```
 
-- macOS on Apple Silicon (`uname -m` returns `arm64`): note that some Docker images need the `-arm` suffix per the cal.diy README.
+- macOS on Apple Silicon (`uname -m` returns `arm64`): `yarn dx` builds containers locally and Just Works. The cal.diy README's `-arm` suffix note only applies if you're pulling pre-built `calcom/cal.diy` images directly from DockerHub — you don't need to do that for the bootcamp.
 - Windows: cohort participants on Windows should use WSL2 — note this.
 - Linux: usually fine; surface the kernel version for context.
 
@@ -219,9 +219,6 @@ After all checks complete (and any approved installs run):
 **If all Tier 1 passed:**
 ```
 ✓ Setup complete. You're ready for the workshops.
-
-Next steps:
-- Open the warm-up exercise from the bootcamp pre-work doc when you're ready.
 ```
 
 **If any Tier 1 failed (or were declined for install):**

@@ -1,3 +1,35 @@
+# Cursor FDE Bootcamp — Working Repo
+
+This is the working repo for the **Cursor FDE Bootcamp**. It's a clean copy of [`calcom/cal.diy`](https://github.com/calcom/cal.diy) — no upstream attachment — seeded with bootcamp issues we'll work through together across the two workshop sessions.
+
+The cal.diy code is the substrate; the work happens against the issues.
+
+## Where the work lives
+
+The bootcamp curriculum is encoded as labeled GitHub issues on this repo. Start there:
+
+➡️ **[github.com/chrisatcursor/cursor-fde-bootcamp/issues](https://github.com/chrisatcursor/cursor-fde-bootcamp/issues)**
+
+Issues are tagged `bootcamp` plus one of: `cloud-agent-candidate`, `scaffolding`, `automation`, `migration`. Each issue body includes context, a proposed approach, and acceptance criteria.
+
+## How to use this repo
+
+1. **Fork this repo to your own GitHub account.** All your bootcamp work — workshop exercises, homework, experiments — should happen on your fork.
+2. **Submit homework against your fork.** Open PRs in your own fork (not against this repo). You'll share fork links during workshop debriefs and homework reviews.
+3. **Pull issue context from the upstream issues list.** Cohort issues are tracked here in the original repo so the cohort sees the same backlog.
+
+If you haven't set up locally yet, run the `/init` skill from the Cursor command palette — it verifies your local environment and walks you through any missing prerequisites before installing anything.
+
+## Attribution
+
+This repo is a fork of [Cal.diy](https://github.com/calcom/cal.diy) by [Cal.com](https://cal.com), used here for educational purposes only. Cal.diy is MIT-licensed; the original `LICENSE` file is preserved at the root of this repo. All credit for the underlying scheduling platform code goes to Cal.com and the cal.diy contributors. The original cal.diy README content is preserved in full below.
+
+---
+
+# Cal.diy — Upstream README
+
+_Everything below this line is the original cal.diy README, preserved verbatim from the upstream commit at fork time._
+
 > [!WARNING]  
 > Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production use. Please review all installation and configuration steps carefully. Self-hosting requires advanced knowledge of server administration, database management, and securing sensitive data. Proceed only if you are comfortable with these responsibilities.
 

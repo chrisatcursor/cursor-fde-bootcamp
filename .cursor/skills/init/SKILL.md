@@ -221,8 +221,6 @@ After all checks complete (and any approved installs run):
 ✓ Setup complete. You're ready for the workshops.
 
 Next steps:
-- Skim the issues at https://github.com/chrisatcursor/cursor-fde-bootcamp/issues
-- Fork this repo to your own GitHub account: gh repo fork --remote
 - Open the warm-up exercise from the bootcamp pre-work doc when you're ready.
 ```
 

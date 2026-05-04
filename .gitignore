@@ -108,6 +108,9 @@ packages/**/.yarn/ci-cache/
 .cursor/agents/sessions/
 .cursor/plans/local/
 
+# Created locally by the /init skill on each clone; not meant to be committed
+.bootcamp-marker
+
 # trigger.dev
 .trigger
 

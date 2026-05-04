@@ -1,24 +1,11 @@
 # Cursor FDE Bootcamp — Working Repo
 
-This is the working repo for the **Cursor FDE Bootcamp**. It's a clean copy of [`calcom/cal.diy`](https://github.com/calcom/cal.diy) — no upstream attachment — seeded with bootcamp issues we'll work through together across the two workshop sessions.
+This is the working repo for the **Cursor FDE Bootcamp**. It's a clean copy of [`calcom/cal.diy`](https://github.com/calcom/cal.diy) — no upstream attachment — used as the codebase we'll work against during the bootcamp sessions.
 
-The cal.diy code is the substrate; the work happens against the issues.
+## Getting started
 
-## Where the work lives
-
-The bootcamp curriculum is encoded as labeled GitHub issues on this repo. Start there:
-
-➡️ **[github.com/chrisatcursor/cursor-fde-bootcamp/issues](https://github.com/chrisatcursor/cursor-fde-bootcamp/issues)**
-
-Issues are tagged `bootcamp` plus one of: `cloud-agent-candidate`, `scaffolding`, `automation`, `migration`. Each issue body includes context, a proposed approach, and acceptance criteria.
-
-## How to use this repo
-
-1. **Fork this repo to your own GitHub account.** All your bootcamp work — workshop exercises, homework, experiments — should happen on your fork.
-2. **Submit homework against your fork.** Open PRs in your own fork (not against this repo). You'll share fork links during workshop debriefs and homework reviews.
-3. **Pull issue context from the upstream issues list.** Cohort issues are tracked here in the original repo so the cohort sees the same backlog.
-
-If you haven't set up locally yet, run the `/init` skill from the Cursor command palette — it verifies your local environment and walks you through any missing prerequisites before installing anything.
+1. Clone this repo locally.
+2. Open the agent chat in Cursor (`Cmd/Ctrl+L`), type `/init`, and hit enter. The skill verifies your local environment and walks you through any missing prerequisites before installing anything.
 
 ## Attribution
 
